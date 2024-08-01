@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css">
         <link rel="icon" href="/images/icon-green-plant.ico">
         <title>starry's status</title>
         <style>
@@ -10,9 +11,30 @@
             margin: auto;
             background: transparent;
           }
+          `#statuscafe {
+                padding: .5em;
+                background-color: #e0f8fb;
+                border: 5px double midnightblue;
+                width: 15.6em;
+                margin-top: 0em;
+                margin-bottom: 0.8em;
+                border-radius: 5px;
+            }
+            #statuscafe-username {
+                margin-bottom: .5em;
+                font-family: "subheader-font";
+            }
+            #statuscafe-content {
+                margin: 0 1em 0.5em 1em;
+                font-family:"main-text-font"; 
+            }
         </style>
     </head>
     <body>
-        <div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=starry_knight" defer></script>
+        <div id="statuscafe">
+            <div id="statuscafe-username"></div>
+            <div id="statuscafe-content"></div>
+        </div>
+        <script src="https://status.cafe/current-status.js?name=starry_knight" defer></script>
     </body>
 </html>
