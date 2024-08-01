@@ -1,7 +1,5 @@
 html{
-    background-color: azure;
-    size:1em;   
-    background-image: url("/images/backgrounds/bg-ginkgo-vertical.gif");
+    size:1em;
 }
 
 @font-face {
