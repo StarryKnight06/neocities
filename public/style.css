@@ -4,15 +4,15 @@ html{
 
 @font-face {
     font-family: "header-font"; 
-    src: url("public/fonts/columbus/ColumbusPlain001000-R026.ttf") format("truetype");
+    src: url("https://starryknight06.github.io/neocities/public/fonts/columbus/ColumbusPlain001000-R026.ttf") format("truetype");
 }
 @font-face {
     font-family:"main-text-font"; 
-    src: url("public/fonts/goudy-bookletter/GoudyBookletter1911-Regular.ttf") format("truetype");
+    src: url("https://starryknight06.github.io/neocities/public/fonts/goudy-bookletter/GoudyBookletter1911-Regular.ttf") format("truetype");
 }
 @font-face {
     font-family:"subheader-font"; 
-    src: url("public/fonts/blue-cashews/Blue_Cashews.otf") format("opentype");
+    src: url("https://starryknight06.github.io/neocities/public/fonts/blue-cashews/Blue_Cashews.otf") format("opentype");
 }
 
 body,iframe {
