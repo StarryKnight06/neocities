@@ -7,32 +7,35 @@
         <link rel="icon" href="/images/icon-green-plant.ico">
         <title>starry's status</title>
         <style>
-          #statuscafe {
-                height: 70px;
+            #container {
                 width: 260px;
-                padding: .5em;
-                margin-top: 0em;
-                margin-bottom: 0.8em;
-                background: transparent;
                 display: block;
                 margin: auto;
-              font-size: 1em;
+            }
+          #statuscafe {
+                padding: 0.5em;
+                margin-top: 0em;
+                margin-bottom: 0.8em;
+                background: rgb(234, 223, 196);
+                font-size: 0.9em;
             }
             #statuscafe-username {
                 margin-bottom: .5em;
-                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
             }
             #statuscafe-content {
                 margin: 0 1em 0.5em 1em;
-                font-family: Georgia, 'Times New Roman', Times, serif; 
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
             }
         </style>
     </head>
     <body>
+        <div id="container">
             <div id="statuscafe">
                 <div id="statuscafe-username"></div>
                 <div id="statuscafe-content"></div>
             </div>
             <script src="https://status.cafe/current-status.js?name=starry_knight" defer></script>
+        </div>
     </body>
 </html>
