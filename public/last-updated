@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>last updated</title>
+        <style>
+        </style>
+    </head>
+    <body>
+        <span id="lastupdate"></span>
+    </body>
+          <script>
+            // java script made by dannarchy 
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+              if (this.readyState == 4 && this.status == 200) {
+                var site_data = JSON.parse(this.responseText);
+          
+                var date_obj = new Date(site_data.info.last_updated);
+                var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+                var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+                document.getElementById("lastupdate").innerHTML = days[date_obj.getDay()] + months[date_obj.getMonth()] + " " + date_obj.getDate() + ", " + date_obj.getFullYear();
+          
+              }
+            };
+            xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=starry-knight", true);
+            xhttp.send();
+        </script>
+</html>
