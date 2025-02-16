@@ -1,0 +1,2 @@
+<? $pass = 'around the rosie'; ?>
+
